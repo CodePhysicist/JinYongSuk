@@ -6,7 +6,7 @@ $mac = trim($_GET["mac"]);
 
 $sql = "SELECT mac FROM user_mac_status WHERE mac = '$mac' ";
 $result = $conn->query($sql);
-if ($result->num_rows === 1)
+if ($result->num_rows === 1) 
 {
     header("Location:$MKGateway/login");
 }
@@ -14,12 +14,12 @@ if ($result->num_rows === 1)
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="th">
   <head>
-    <title>MagicShine Hotspot</title>
+    <title>MagicShine Hotspot (Jin Yong Suk)</title>
 
     <!-- META -->
 	 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="" /> 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" media="screen,projection" href="css/master_wireless_att.css" />
     <style type="text/css" media="all">.searchNav2 ul {float:left;padding:4px 3px 4px 480px;list-style-type:none;}.searchNav2 ul li{float:left;}.searchNav2 ul li a{padding:0 10px;border-right:1px solid #cccccc;}.searchNav2 ul li.last a{padding:0 0 0 10px;border:0;}.searchNav2 ul li img{padding-right:5px;}.fewest{padding:15px 0px 15px 0px;}.box1{font-size:11px; padding:40px 10px 5px 10px;}.box2{font-size:11px; padding:3px 10px 0px 10px;}.box3{font-size:11px; padding:55px 10px 0px 30px;}.btn{padding:32px 10px 0px 50px;}.logo{ padding-left:0px; float:left;}
@@ -33,17 +33,17 @@ if ($result->num_rows === 1)
     </div>
     <div id="container">
       <div id="page" align="right"><br>
-
-
-
-
-
+	  
+	 
+	  
+	   
+	   
 	   <!-- global nav end-->
        <!-- body -->
 <div id="content">
           <div class="mod_h">
             <div align="left" class="fewest">&nbsp; &nbsp; <img src="images/ms_logo.gif" border="0" alt="MagicShine WiFi"   align="absmiddle"  >
-              <img src="images/selection_title.gif"   height="40"   align="absmiddle"  /><img src="images/btn_box_arrow_left.gif" border="0" alt="Login"   align="absmiddle"   />
+              <img src="images/selection_title.gif"   height="40"   align="absmiddle"  /><img src="images/btn_box_arrow_left.gif" border="0" alt="Login"   align="absmiddle"   />  
 			  <a href="<?php echo $MKGateway;?>/login">LOGIN</a></div>
 
  <div align="left">
@@ -67,14 +67,15 @@ if ($result->num_rows === 1)
 <img src="images/icon_3.jpg" > <font color="#660000" size="-1" style="font-weight:bold">Titanium Package</font> <s class="text-red">3,000</s> ลดเหลือ 1,500 บาท / 6 เดือน (ไม่จำกัดชั่วโมง, ใช้ได้ 5 เครื่อง)  <br>
 
 
+            
 </p>
- 	 <div style="font-size:12px; height:15px;">ติดต่อซื้อรหัสผ่านได้ที่ สำนักงานหอพัก <b>Venezia Residence</b> </div>
+ 	 <div style="font-size:12px; height:15px;">ติดต่อซื้อรหัสผ่านได้ที่ สำนักงานหอพักสตรี จินต์ยงสุข</div>
 		 <div style="font-size:12px; height:15px;"></div>
-		 <div style="color:#663399; font-weight:300; height:20px; ">สอบถามสถานที่จำหน่ายบัตร Tel. 089-230-8088 (พี่เดี่ยว)</div>
+		 <div style="color:#663399; font-weight:300; height:20px; ">สอบถามที่ตั้งหอพัก Tel. 02-692-1464 กด 444, คุณวัฒน์ 061-418-4342</div>
                  <!--div style="color:#663399; font-size:12px;  height:20px; ">ต้องการซื้อผ่านทาง SMS ติดต่อ 081-349-7774 (กมล)</div-->
 
 
-
+ 		
 	  <div  style="color:#000000; padding:2px 0px 0px 5px;" >
 
 	  </div>
@@ -85,14 +86,14 @@ if ($result->num_rows === 1)
 
  <!--br>ตรวจสอบความเร็ว Internet : <a href="http://192.168.43.191/speedtest">Speed Test</a-->
  </div>
-
+ 
       </div>
       <span style="font-weight:bold; position:relative; top:20px; left:25px; color:red;" >Buy Passcode Online (Coming soon...)</span>
       <br><br><br>
-      <div align="right" style="padding:0px 20px 0px 20px">
+      <div align="right" style="padding:0px 20px 0px 20px">		
 		<a title="We accept Online Payment."  STYLE='text-decoration:none'  href="#">
-
-
+		
+		
 		<img src="images/paypal/visa.gif"   />
 		<img src="images/paypal/master.gif"   />
         <img src="images/paypal/jcb.gif"   />
@@ -101,7 +102,7 @@ if ($result->num_rows === 1)
 		</div>
 
 
-
+	  
 	 </td>
 </tr>
 
@@ -109,8 +110,8 @@ if ($result->num_rows === 1)
 </table>
 
 </div>
-
-          </div>
+            
+          </div> 
         </div>
       </div>
       <div id="btmContainer">
@@ -118,12 +119,12 @@ if ($result->num_rows === 1)
     </div>
     <!-- body end-->
     <p>      <div id="legalFtr">        </p>
-
-
-
-
-        <p >
-        <div style="font-size:11px">หอพัก หรือ คอนโด ที่สนใจติดตั้งระบบ WiFi สามารถติดต่อได้ที่ หมายเลข  081-349-7774 </div>
+     
+	 
+        
+	 
+        <p >  
+        <div style="font-size:11px">หอพัก หรือ คอนโด ที่สนใจติดตั้งระบบ WiFi สามารถติดต่อได้ที่ หมายเลข  081-349-7774 </div>   
         </p>
     <div>
       <p>
