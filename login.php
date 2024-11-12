@@ -197,7 +197,7 @@ Problem:
                             {
                                 document.sendin.username.value = document.login.username.value;
                                 document.sendin.password.value = hexMD5('<?php echo $chap_id;?>' + document.login.password.value + '<?php echo $chap_challenge;?>');
-                                ShowAlert(document.sendin.username.value + " " + document.login.password.value + " " + document.sendin.password.value);
+                                ShowAlert(document.sendin.username.value + " " + $chap_id + " " + $chap_challenge);
                                 return;
                                 //document.sendin.submit();
                             }
